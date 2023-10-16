@@ -1,0 +1,64 @@
+<mxfile host="Electron" modified="2023-10-08T09:24:58.643Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="QQRE6qQR5Mo_W-T9Gy95" version="21.5.0" type="device">
+  <diagram name="Page-1" id="xpishqlB4bWyGHBPJw4_">
+    <mxGraphModel dx="1257" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rXD_KlEOA8UCJ-dEMSzv-1" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="70" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rXD_KlEOA8UCJ-dEMSzv-3" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="70" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rXD_KlEOA8UCJ-dEMSzv-4" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="70" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rXD_KlEOA8UCJ-dEMSzv-5" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="30" y="98" as="sourcePoint" />
+            <mxPoint x="130" y="98" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXD_KlEOA8UCJ-dEMSzv-6" value="data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="70" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXD_KlEOA8UCJ-dEMSzv-7" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="350" y="100" as="sourcePoint" />
+            <mxPoint x="450" y="100" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXD_KlEOA8UCJ-dEMSzv-8" value="network" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="68" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXD_KlEOA8UCJ-dEMSzv-9" value="1. Fragmentation&lt;br&gt;2. Forward Error Correction (&lt;b&gt;XORing)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rXD_KlEOA8UCJ-dEMSzv-14" value="group size" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="28" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXD_KlEOA8UCJ-dEMSzv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rXD_KlEOA8UCJ-dEMSzv-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXD_KlEOA8UCJ-dEMSzv-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rXD_KlEOA8UCJ-dEMSzv-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXD_KlEOA8UCJ-dEMSzv-15" value="streaming" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rXD_KlEOA8UCJ-dEMSzv-18" value="static streaming" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="168" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rXD_KlEOA8UCJ-dEMSzv-20" value="&lt;b&gt;streaming on demand&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="715" y="168" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
